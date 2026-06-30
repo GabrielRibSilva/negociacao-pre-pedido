@@ -271,6 +271,26 @@
             object-fit: cover;
         }
 
+        .video-embed {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* proporção 16:9 */
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid var(--card-border);
+            background: var(--bg-light);
+            box-shadow: 0 25px 50px -15px rgba(15, 23, 42, 0.15);
+        }
+
+        .video-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
         /* Impactos */
         .stats-grid {
             display: grid;
@@ -646,8 +666,9 @@
                 </div>
             </div>
             <div>
-                <!-- Substitua pelo arquivo: imagens/negociacao-hero.png -->
-                <img src="imagens/negociacao-hero.png" alt="Tela de negociação Mobi mostrando o veículo, pacotes e o resumo financeiro" class="mock-image-light">
+                <div class="video-embed">
+                    <iframe src="https://player.vimeo.com/video/1205942018" title="Tela de negociação Mobi mostrando o veículo, pacotes e o resumo financeiro" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </section>
     </div>
@@ -676,8 +697,8 @@
                 </ul>
             </div>
             <div>
-                <!-- Substitua pelo arquivo: imagens/negociacao-como-funciona.png -->
-                <img src="imagens/negociacao-como-funciona.png" alt="Exemplo de tela mostrando como funciona a nova experiência de negociação interativa" class="mock-image-dark">
+                <!-- Imagem: tela inicial -->
+                <img src="https://www.dropbox.com/scl/fi/a3v788pra3gsszc35csgc/imagem-tela-inicial.jpeg?rlkey=gg194gr6i1k6y83v2d37j5wa5&st=a0bz0gr0&raw=1" alt="Exemplo de tela mostrando como funciona a nova experiência de negociação interativa" class="mock-image-dark">
             </div>
         </div>
     </section>
@@ -733,8 +754,8 @@
                 </div>
             </div>
             <div>
-                <!-- Substitua pelo arquivo: imagens/negociacao-carro-mesa.png -->
-                <img src="imagens/negociacao-carro-mesa.png" alt="Tela mostrando o veículo, abas de pacotes e itens de embelezamento compatíveis" class="mock-image-light">
+                <!-- Imagem: tela inicial -->
+                <img src="https://www.dropbox.com/scl/fi/a3v788pra3gsszc35csgc/imagem-tela-inicial.jpeg?rlkey=gg194gr6i1k6y83v2d37j5wa5&st=a0bz0gr0&raw=1" alt="Tela mostrando o veículo, abas de pacotes e itens de embelezamento compatíveis" class="mock-image-light">
             </div>
         </div>
     </section>
@@ -791,8 +812,8 @@
                 <div class="check-item"><div class="check-icon"><svg class="icon"><use href="#icon-check"/></svg></div> Descrições claras dos pacotes</div>
                 <div class="check-item"><div class="check-icon"><svg class="icon"><use href="#icon-check"/></svg></div> Preços atualizados no carrinho instantaneamente</div>
             </div>
-            <!-- Substitua pelo arquivo: imagens/negociacao-embelezamento.png -->
-            <img src="imagens/negociacao-embelezamento.png" alt="Aba de Embelezamento mostrando películas e proteções disponíveis" class="mock-image-light">
+        <!-- Imagem: embelezamento -->
+        <img src="https://www.dropbox.com/scl/fi/i4nqqo0wof77q59a5e7m5/imagem-embelezamento.jpeg?rlkey=0qzqodol4afnvciecmtzum0lz&st=puwwsvvz&raw=1" alt="Aba de Embelezamento mostrando películas e proteções disponíveis" class="mock-image-light">
         </div>
     </section>
 
@@ -803,8 +824,8 @@
                 <h2>Simulações ágeis e <span class="text-primary">transparentes.</span></h2>
                 <p>Simulações rápidas e sem mistério. Faça propostas ou peça análises ao time de F&I sem perder o ritmo da conversa nem a atenção do cliente.</p>
             </div>
-            <!-- Substitua pelo arquivo: imagens/negociacao-financiamento.png -->
-            <img src="imagens/negociacao-financiamento.png" alt="Aba de Financiamento mostrando simulação de propostas" class="mock-image-light">
+        <!-- Imagem: simulação de seguro -->
+        <img src="https://www.dropbox.com/scl/fi/ub3biwd966hcnyl9bcl52/simulacao-de-seguro.jpeg?rlkey=c8iocjs8pwx7ekfg4w5d7ojw0&st=vafe18ib&raw=1" alt="Aba de Financiamento mostrando simulação de propostas" class="mock-image-light">
         </div>
     </section>
 
@@ -815,8 +836,8 @@
                 <h2>Um carrinho completo, direto para a <span class="text-primary">PDS.</span></h2>
                 <p>Um carrinho que já resolve tudo. Tudo o que vocês escolheram juntos fica reunido de forma clara. Aprovou? A Proposta Digital Saga sai pronta e preenchida.</p>
             </div>
-            <!-- Substitua pelo arquivo: imagens/negociacao-carrinho.png -->
-            <img src="imagens/negociacao-carrinho.png" alt="Lateral direita com o carrinho e o valor total da negociação" class="mock-image-light">
+        <!-- Imagem: pré-preenchido -->
+        <img src="https://www.dropbox.com/scl/fi/ztrvbzpmflb0jivlvikvu/Imagem-pre-preenchido.jpeg?rlkey=4b3prsoxlo6kw5u1nuommbl7w&st=o4nx1fqy&raw=1" alt="Lateral direita com o carrinho e o valor total da negociação" class="mock-image-light">
         </div>
     </section>
 
