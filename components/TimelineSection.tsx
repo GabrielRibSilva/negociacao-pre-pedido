@@ -1,5 +1,3 @@
-# GabrielRibSilva.github.io
-
 import {
   Car,
   CheckCircle,
