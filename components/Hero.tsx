@@ -10,8 +10,8 @@ export function Hero() {
             Lançamento MobiGestor
           </span>
           <h1 className="text-5xl font-black tracking-tight text-slate-950 md:text-6xl">
-            O carro vai para a mesa.
-            <span className="block text-blue-600">A negociação fica mais visual.</span>
+            NEGOCIAÇÃO
+            <span className="block text-blue-600">MOBI.</span>
           </h1>
           <p className="mt-6 text-xl font-semibold leading-8 text-slate-800">
             Uma nova experiência para conduzir a venda ao lado do cliente, com mais clareza, impacto visual e agilidade.
