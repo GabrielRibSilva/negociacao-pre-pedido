@@ -1,53 +1,28 @@
-import { PlayCircle } from "lucide-react";
 import { MediaPlaceholder } from "./MediaPlaceholder";
 
 export function FullDemoSection() {
   return (
-    <section
-      id="demo"
-      className="bg-white py-28"
-    >
-
+    <section id="demo" className="bg-slate-50 py-24">
       <div className="mx-auto max-w-7xl px-6">
-
         <div className="mx-auto mb-16 max-w-3xl text-center">
-
           <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-blue-600">
-            Demonstração completa
+            Veja na prática
           </p>
-
-          <h2 className="text-5xl font-black tracking-tight text-slate-950">
-            Veja uma negociação acontecendo.
+          <h2 className="text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
+            Uma venda mais visual,
+            <span className="block text-blue-600">sem mudar a rotina do vendedor.</span>
           </h2>
-
-          <p className="mt-6 text-lg leading-8 text-slate-500">
-
-            A melhor forma de entender o módulo é acompanhando uma venda do
-            começo ao fim.
-
+          <p className="mt-5 text-lg leading-8 text-slate-500">
+            A demonstração completa deve mostrar que o módulo não é um novo processo complicado. É uma forma mais clara e comercial de conduzir a negociação.
           </p>
-
         </div>
-
         <MediaPlaceholder
           type="video"
-          title="ANEXAR VÍDEO — Fluxo completo"
-          description="Gravar desde a abertura do Lead até o clique em Avançar para Pedido, mostrando todo o processo sem cortes."
-          duration="5 minutos"
+          title="ANEXAR VÍDEO — Demonstração completa"
+          description="Grave o fluxo desde o Lead até o Avançar para Pedido, mostrando a experiência como uma apresentação comercial para o vendedor."
+          duration="3 a 5 minutos"
         />
-
-        <div className="mt-10 flex items-center justify-center gap-3 text-blue-600">
-
-          <PlayCircle/>
-
-          <span className="font-semibold">
-            Demonstração completa do fluxo
-          </span>
-
-        </div>
-
       </div>
-
     </section>
   );
 }
